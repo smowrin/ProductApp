@@ -98,8 +98,11 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"packages": {},
-						"type": "text/javascript"
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
 					}
 				}
 			],
@@ -107,7 +110,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44336/api/products/2",
+					"raw": "https://localhost:44336/api/products/1",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -116,7 +119,7 @@
 					"path": [
 						"api",
 						"products",
-						"2"
+						"1"
 					]
 				}
 			},
